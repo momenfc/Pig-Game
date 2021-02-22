@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="player player--1 active">
+        <h3>player 1</h3>
+        <span class="score">0</span>
+
+        <div class="current">
+          <span>current</span>
+          <span class="current-score">0</span>
+        </div>
+      </div>
+      <div class="player player--2">
+        <h3>player 2</h3>
+        <span class="score">0</span>
+
+        <div class="current">
+          <span>current</span>
+          <span class="current-score">0</span>
+        </div>
+      </div>
+      <div class="options">
+        <button class="opt-button new-game">new game</button>
+        <button class="opt-button roll-dice">roll dice</button>
+        <button class="opt-button hold">hold</button>
+      </div>
+
+      <div class="dice">
+        <div class="copic">
+          <span class="point point--1"></span>
+          <span class="point point--2"></span>
+          <span class="point point--3"></span>
+          <span class="point point--4"></span>
+          <span class="point point--5"></span>
+          <span class="point point--6"></span>
+          <span class="point point--7"></span>
+        </div>
+      </div>
+      <div class="total-score">
+        <span class="p1TotalScore ">Player 1: <span class="total">0</span></span>
+        <span class="p2TotalScore active">Player 2: <span class="total">0</span></span>
+        </div>
+        
+
+      </div>
+      <div class="game-message">player 1 win</div>
+    </div>
+  </body>
+
+  <script src="app.js"></script>
+</html>
