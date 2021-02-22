@@ -99,7 +99,7 @@ function holdFunc() {
     p1TotalScore.firstElementChild.textContent = p1Score;
     p1Current = 0;
     player1Current.textContent = p1Current;
-    if (p1Score >= 10) {
+    if (p1Score >= 100) {
       showMessage('player 1 win');
       rollDiceBtn.disabled = true;
       holdBtn.disabled = true;
@@ -114,7 +114,7 @@ function holdFunc() {
     p2TotalScore.firstElementChild.textContent = p2Score;
     p2Current = 0;
     player2Current.textContent = p2Current;
-    if (p2Score >= 10) {
+    if (p2Score >= 100) {
       showMessage('player 2 win');
       rollDiceBtn.disabled = true;
       holdBtn.disabled = true;
